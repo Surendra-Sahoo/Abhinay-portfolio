@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Personal Portfolio Website</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" 
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <div id="nav">
+    <a href="#main">Home</a>
+    <a href="#container">About</a>
+    <a href="#services">Services</a>
+    <a href="#portfolio">Portfolio</a>
+    <a href="#contact">Contact</a>
+  </div>
+
+  <div id="main">
+    <div class="first">
+      <!-- <p>FullStack Designer</p> -->
+      <h1>Hi, I'm <span>ABHINAY</span><br>From Hyderabad</h1>
+    </div>
+    <div class="second">
+      <img src="abhinay_2-removebg-preview.png" height="300px" width="250px" alt="" />
+    </div>
+  </div>
+
+  <!-- -----------------About---------------------------- -->
+  <div id="container">
+    <div class="third">
+      <img src="abhinay 3.png" height="400px" width="350px" alt="" />
+    </div>
+    <div class="four">
+      <h1>About Me</h1><br>
+      <p>
+        My Self  Gubbala Abhinay from Hyderabad. I completed my Intermediate (CEC) in 2024 and I'm currently pursuing B.Com. I have experience in customer support at Contain Technology Pvt. Ltd, where I improved my communication and teamwork skills. I'm a hard-working, quick learner with good knowledge of MS Excel and typing. I enjoy cricket, photography, and participating in social activities.
+      </p>
+
+      <div class="tab-titles">
+        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+        <p class="tab-links" onclick="opentab('education')">Education</p>
+      </div>
+
+      <div class="tab-contents active-tab" id="skills">
+        <ul>
+          <li><span></span><br>MS Excel</li>
+          <li><span></span><br>MS Word</li>
+          <li><span></span><br>PowerBi</li>
+        </ul>
+      </div>
+
+      <div class="tab-contents" id="experience">
+        <ul>
+          <li><span>2025 - Current</span> Customer Support At Containe Technology<br></li>
+          <!-- <li><span>2022 - 2023</span><br>Internship at Gandhi Institute Of Technology And Management, BBSR, Odisha</li> -->
+        </ul>
+      </div>
+
+      <div class="tab-contents" id="education">
+        <ul>
+          <li><span>2025</span><br>GOVERNMENT MALKAJGIRI DEGREE COLLEGE<br></li>
+          <li><span>2024</span><br>ZPHS SAROORNAGAR</li>
+          <li><span>2011</span><br>VMR GRAMMER HIGH SCHOOL</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- ----------------------------Services---------------------------- -->
+  <div id="services">
+    <div class="container">
+      <h1 class="sub-title">My Services</h1>
+      <div class="services-list">
+        <div>
+          <h2>Data Entry & Data Management</h2><br>
+          <p>
+           Skilled in entering, organizing, and managing data in Excel and with high accuracy and attention to detail, ensuring reliable and well-structured datasets.
+          </p><br>
+          <a href="#">Learn More</a>
+        </div>
+
+        <div>
+          <h2>Online Research & Data Collection</h2><br>
+          <p>
+            Experienced in online data collection and research, ensuring accurate, structured, and actionable information for reporting and analysis.
+          </p><br>
+          <a href="#">Learn More</a>
+        </div>
+
+        <div>
+          <h2>Typing & Data Processing</h2><br>
+          <p>
+            Skilled in fast and accurate typing, data processing, and handling large volumes of numeric and text information.
+          <a href="#">Learn More</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ------------------------Portfolio------------------------------------- -->
+  <div id="portfolio">
+    <div class="container">
+      <h1 class="sub-title">My Work</h1>
+      <div class="work-list">
+        <div class="work">
+          <img src="./work1.jpg" height="300px" width="300px" alt="" />
+          <div class="layer">
+            <h3>Social Media App</h3>
+            <p>
+              The app connects you to the talented people around the world. Download it from the play store.
+            </p>
+          </div>
+        </div>
+
+        <div class="work">
+          <img src="./work2.jpg" height="300px" width="300px" alt="" />
+          <div class="layer">
+            <h3>Spreadsheet & Excel Work</h3>
+            <p>
+              Skilled in creating, managing, and maintaining spreadsheets with accurate data entry, formulas, and formatting for reporting and analysis.
+            </p>
+          </div>
+        </div>
+
+        <div class="work">
+          <img src="./work3.jpg" height="300px" width="300px" alt="" />
+          <div class="layer">
+            <h3>CRM / Software Data Updating</h3>
+            <p>
+              Skilled in CRM and software data updating, maintaining organized and accurate records to support effective business management.
+            </p>
+          </div>
+        </div>
+      </div>
+      <a href="#" class="btn">See more</a>
+    </div>
+  </div>
+
+  <!-- ---------------------------Contact--------------------------- -->
+  <div id="contact">
+    <div class="container">
+      <div class="row">
+        <!-- Contact Details -->
+        <div class="contact-left">
+          <h1 class="sub-title">Contact Me</h1>
+          <p><i class="fa-solid fa-paper-plane"></i> gubbalabhinay267@gmail.com</p>
+          <p><i class="fa-solid fa-phone-volume"></i> 7569051805</p>
+          <div class="social-icons">
+            <a href="https://www.facebook.com/share/1A7m2XtYBq/"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/invites/contact/?utm_source=ig_contact_invite&utm_medium=copy_link&utm_content=kidlymn"><i class="fa-brands fa-instagram"></i></a>
+            <!-- <a href="https://www.linkedin.com/in/surendra-sahoo-70585a268/"><i class="fa-brands fa-linkedin"></i></a> -->
+          </div>
+          <!-- <a href="./sureCV.jpg" download class="btn btn2">Download CV</a> -->
+        </div>
+        <!-- Contact Form -->
+        <div class="contact-form">
+          <form action="#" method="post">
+            <input type="text" placeholder="Your Name" name="name" required />
+            <input type="email" placeholder="Your Email" name="email" required />
+            <input type="text" placeholder="Subject" name="subject" required />
+            <textarea placeholder="Message" name="message" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      <p>Copyright @ Abhinay. Made with <i class="fa-solid fa-heart"></i> by Easy Tutorials</p>
+    </div>
+  </div>
+
+  <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    console.log(tablinks, tabcontents);
+    function opentab(tabname) {
+      console.log(tabname);
+      for (tablink of tablinks) {
+        tablink.classList.remove("active-link");
+      }
+      for (tabcontent of tabcontents) {
+        tabcontent.classList.remove("active-tab");
+      }
+      event.currentTarget.classList.add("active-link");
+      document.getElementById(tabname).classList.add("active-tab");
+    }
+  </script>
+</body>
+</html>
